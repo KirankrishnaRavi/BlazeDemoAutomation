@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample" duration-ms="23655" started-at="2021-01-24T13:15:56Z" finished-at="2021-01-24T13:16:19Z">
+    <groups>
+      <group name="E2E">
+        <method signature="E2ESuite.bookTicket(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="bookTicket" class="com.blazedemo.qa.testcases.E2ESuite"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test name="Test" duration-ms="23655" started-at="2021-01-24T13:15:56Z" finished-at="2021-01-24T13:16:19Z">
+      <class name="com.blazedemo.qa.testcases.E2ESuite">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="setUp" is-config="true" duration-ms="7784" started-at="2021-01-24T18:45:57Z" finished-at="2021-01-24T18:46:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookTicket(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="bookTicket" duration-ms="3839" started-at="2021-01-24T18:46:04Z" data-provider="getE2EData" finished-at="2021-01-24T18:46:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Philadelphia]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Thomas Xavier]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10, E Street]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Aliso Vigo]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[12345.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2022.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Kirankrishna Ravi]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[1234 5678 9012 3456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="tearDown" is-config="true" duration-ms="194" started-at="2021-01-24T18:46:08Z" finished-at="2021-01-24T18:46:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="setUp" is-config="true" duration-ms="6787" started-at="2021-01-24T18:46:08Z" finished-at="2021-01-24T18:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bookTicket(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="bookTicket" duration-ms="4160" started-at="2021-01-24T18:46:15Z" data-provider="getE2EData" finished-at="2021-01-24T18:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Paris]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Berlin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Daniel Johnson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[14, W Street]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Wall Street]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[67890.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Visa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[2023.0]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Daniel Johnson]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[7894 5612 3789 4560]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookTicket -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.blazedemo.qa.testcases.E2ESuite@4667ae56]" name="tearDown" is-config="true" duration-ms="113" started-at="2021-01-24T18:46:19Z" finished-at="2021-01-24T18:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.blazedemo.qa.testcases.E2ESuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Sample -->
+</testng-results>
